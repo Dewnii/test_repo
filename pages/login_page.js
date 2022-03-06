@@ -29,4 +29,8 @@ module.exports = {
     I.waitForText(message,2, this.banner)
   },
 
+  verifyduplicateMessage(message){
+    I.waitForText(message,2, this.banner)
+  },
+
 }
