@@ -23,4 +23,10 @@ module.exports = {
   verifyBannerMessage(message){
     I.waitForText(message,2, this.banner)
   },
+
+  
+  verifyErrorMessage(message){
+    I.waitForText(message,2, this.banner)
+  },
+
 }
